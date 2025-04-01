@@ -6,6 +6,7 @@ Basic mobile application for demonstrating elementary proficiency in designing m
 
 <div align="center">
 
-### Gallery
-![Gallery gif](assets/gallery.gif)
+### Gallery  
+<img src="assets/gallery.gif" width="400px">
+
 </div>
