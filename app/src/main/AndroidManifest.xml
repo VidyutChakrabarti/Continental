@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="continental">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity
+            android:name="com.example.continental.Set_Profile"
+            android:exported="true" />
+        <activity
+            android:name="com.example.continental.Profile"
+            android:exported="true" />
+        <activity
+            android:name="com.example.continental.Bill_Payment_Deal_Six"
+            android:exported="true" />
+        <activity
+            android:name="com.example.continental.Bill_Payment_Deal_Five"
+            android:exported="true" />
+        <activity
+            android:name="com.example.continental.Bill_Payment_Deal_Four"
+            android:exported="true" />
+        <activity
+            android:name="com.example.continental.Bill_Payment_Deal_Three"
+            android:exported="true" />
+        <activity
+            android:name="com.example.continental.Bill_Payment_Deal_Two"
+            android:exported="true" />
+        <activity
+            android:name="com.example.continental.Bill_Payment_Deal_One"
+            android:exported="true" />
+        <activity
+            android:name="com.example.continental.Deal_Six"
+            android:exported="true" />
+        <activity
+            android:name="com.example.continental.Deal_Five"
+            android:exported="true" />
+        <activity
+            android:name="com.example.continental.Deal_Four"
+            android:exported="true" />
+        <activity
+            android:name="com.example.continental.Deal_Three"
+            android:exported="true" />
+        <activity
+            android:name="com.example.continental.Deal_Two"
+            android:exported="true" />
+        <activity
+            android:name="com.example.continental.Deal_One"
+            android:exported="true" />
+        <activity
+            android:name="com.example.continental.Home_page"
+            android:exported="true" />
+        <activity
+            android:name="com.example.continental.Signup"
+            android:exported="true" />
+        <activity
+            android:name="com.example.continental.Login"
+            android:exported="true" />
+        <activity
+            android:name="com.example.continental.HomeActivity"
+            android:exported="true"
+            android:label="Home" />
+        <activity
+            android:name="com.example.continental.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.continental.Order_Summary"
+            android:exported="true">
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
